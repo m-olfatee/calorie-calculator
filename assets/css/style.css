@@ -1,0 +1,13 @@
+section {
+    display: none;
+    width: 40%;
+    flex-direction: column;
+}
+article {
+    text-align: center;    
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+div {
+    border: 1px solid black;
+}
