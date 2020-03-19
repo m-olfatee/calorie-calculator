@@ -1,6 +1,6 @@
 section {
     display: none;
-    width: 40%;
+    width: 100%;
     flex-direction: column;
 }
 article {
@@ -10,4 +10,27 @@ article {
 }
 div {
     border: 1px solid black;
+}
+.container {
+    height: 80vh;
+    width: 20vw;
+    border-radius: 10px;
+    padding: 2% 2%;
+    background-image: linear-gradient(to bottom, rgb(0, 153, 255) , rgb(52, 52, 255));}
+label{
+    font-size: 1.5em;
+    
+}
+input[type="number"] {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 10%;
+}
+#active {
+    margin: 3% 0;
+    width: 100%;
+    font-size: 1em;
+}
+input[type="button"] {
+    margin-bottom: 5%;
 }
