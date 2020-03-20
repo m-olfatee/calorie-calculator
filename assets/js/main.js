@@ -90,13 +90,13 @@ function calculate() {
         }
     }
     if (male === true) {
-        ground = eval(66.47 + (13.7 * weight) + (5 * Height) - (6.8 * Age));
+        ground = eval(664.7 + (13.7 * weight) + (5 * Height) - (6.8 * Age));
     } else if (female === true) {
-        ground = eval(65.51 + (9.6 * weight) + (1.8 * Height) - (4.7 * Age));
+        ground = eval(655.1 + (9.6 * weight) + (1.8 * Height) - (4.7 * Age));
     }
     var results = [];
     ground = ground.toFixed(2);
-    results.push(ground / 1000);
+    results.push(ground);
     results.push(results[0] * 4.184)
     results.push(results[0] * active);
     results.push(results[2] * 4.184)
