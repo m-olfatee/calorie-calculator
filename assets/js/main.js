@@ -95,13 +95,11 @@ function calculate() {
         ground = eval(655.1 + (9.6 * weight) + (1.8 * Height) - (4.7 * Age));
     }
     var results = [];
-    ground = ground.toFixed(2);
     results.push(ground);
     results.push(results[0] * 4.184)
     results.push(results[0] * active);
     results.push(results[2] * 4.184)
-    for (j = 0; j < results.length; j++) {
-        results[j] = results[j].toFixed(2)
-        document.getElementsByClassName("result")[j].innerHTML = results[j];
+    for (let j = 0; j < results.length; j++) {
+        document.getElementsByClassName("result")[j].innerHTML = results[j].toFixed(2);
     }
 }
